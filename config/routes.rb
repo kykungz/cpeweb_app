@@ -3,4 +3,5 @@ Rails.application.routes.draw do
     get '/about', to: 'static_pages#about'
     get '/contact', to: 'static_pages#contact'
     get '/cpe_course', to: 'static_pages#cpe_course'
+    get '/ske_course', to: 'static_pages#ske_course'
 end
