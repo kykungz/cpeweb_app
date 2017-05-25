@@ -1,2 +1,18 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+<div>ภาควิชาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ (วิทยาเขตบางเขน)<br /> เลขที่ 50 ถนนงามวงศ์วาน แขวงลาดยาว<br
+    /> เขตจตุจักร กรุงเทพ ฯ 10900<br /> โทร. 0-2797-0999 ต่อ 1403-04 1450<br /></div>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+<script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(13.846603, 100.568445),
+            zoom: 18,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9sc07Nk7Eh1Ztx9tGxHvhmgdZXmCf5GY&callback=myMap"></script>
+
