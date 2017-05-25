@@ -11,8 +11,10 @@
     <%= render 'layouts/navbar' %>
     <!--padding-->
     <div class="padding"></div>
+    <%= render 'layouts/header' %>
     <div style="max-width:800px;" class="container center-block">
       <%= yield %>
     </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
