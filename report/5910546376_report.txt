@@ -1,0 +1,6 @@
+# Kongpon's report
+1.) We have 2 main parts, the layout and the static page content. We branch each part to work alone and then merge with master when finished. After the layout is finished, everyone will work on the static page content. When we want to edit the layout such as navbar, we branch it out to test whether it is working. If too much effort are put, and the work is not done. We don't need to worry about the effect on master branch.
+
+2.) I work on the rails server, routing and getting all pieces together so other people just need to worry about their page/code. I am the one who make sure every thing works.
+
+3.) Everything is fine but there are some problems when someone tries to format the code style.
