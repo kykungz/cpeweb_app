@@ -10,6 +10,6 @@ Rails.application.routes.draw do
     get '/overview', to: 'static_pages#overview'
     get '/faculty_members', to: 'static_pages#faculty_members'
     get '/department_head', to: 'static_pages#department_head'
-    get '/board_of_admisnistrations', to: 'static_pages#board_of_admisnistrations'
+    get '/board_of_administrations', to: 'static_pages#board_of_administrations'
     get '/admin_senior', to: 'static_pages#admin_senior'
 end
