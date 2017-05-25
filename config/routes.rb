@@ -4,4 +4,12 @@ Rails.application.routes.draw do
     get '/contact', to: 'static_pages#contact'
     get '/cpe_course', to: 'static_pages#cpe_course'
     get '/ske_course', to: 'static_pages#ske_course'
+    get '/activities', to: 'static_pages#activities'
+    get '/staff', to: 'static_pages#staff'
+    get '/research_areas_and_labs', to: 'static_pages#research_areas_and_labs'
+    get '/overview', to: 'static_pages#overview'
+    get '/faculty_members', to: 'static_pages#faculty_members'
+    get '/department_head', to: 'static_pages#department_head'
+    get '/board_of_admisnistrations', to: 'static_pages#board_of_admisnistrations'
+    get '/admin_senior', to: 'static_pages#admin_senior'
 end
