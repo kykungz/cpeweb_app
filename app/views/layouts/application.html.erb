@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <head>
     <title><%= yield(:title) %> | Department of Computer Engineering - Kasetsart University</title>
       <%= csrf_meta_tags %>
@@ -8,8 +9,13 @@
   </head>
 
   <body>
+    <%= render 'layouts/navbar' %>
+    <!--padding-->
+    <div class="padding"></div>
+    <%= render 'layouts/header' %>
     <div style="max-width:800px;" class="container center-block">
       <%= yield %>
     </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
